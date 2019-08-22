@@ -27,9 +27,10 @@ function mergeSort(unsortedArray) {
   const leftArray = unsortedArray.slice(0, middleIndex);
   const rightArray = unsortedArray.slice(middleIndex);
 
-  return merge(
-    mergeSort(leftArray), mergeSort(rightArray)
-  );
+  const sortedLeftArray = mergeSort(leftArray);
+  const sortedRightArray = mergeSort(rightArray);
+
+  return merge(sortedLeftArray, sortedRightArray);
 }
 
 module.exports = mergeSort;
