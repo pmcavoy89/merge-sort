@@ -13,9 +13,12 @@ function merge(leftArray, rightArray) {
     }
   }
 
+  const slicedLeft = leftArray.slice(leftIndex);
+  const slicedRight = rightArray.slice(rightIndex);
+
   return resultArray
-    .concat(leftArray.slice(leftIndex))
-    .concat(rightArray.slice(rightIndex));
+    .concat(slicedLeft)
+    .concat(slicedRight);
 }
 
 function mergeSort(unsortedArray) {
