@@ -8,6 +8,9 @@ Merge sort is faster, on average, than other sorting algorithms such as [bubble 
     TODO
 ```
 
-### Commands
-* `npm start` - runs the project
+## Video
+### Simple Run Through
+[![Merge Sort Video](https://img.youtube.com/vi/LBA-nU6KGyI/0.jpg)](https://youtu.be/LBA-nU6KGyII)
 
+## Commands
+* `npm start` - runs the project
